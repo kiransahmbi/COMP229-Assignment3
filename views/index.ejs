@@ -1,0 +1,30 @@
+<!--
+index.ejs
+Kirandeep Sahmbi
+301232670
+June 4 2022
+ -->
+ 
+<%- include partials/header -%>
+
+<%- include partials/navbar -%>   
+
+
+<!-- Homepage -->
+    <div class="header overflow-hidden px-1 my-md-1" id="header">
+        <div class="row">
+            <!-- Portfolio Picture -->
+            <div rowspan=2 class="header-picture-container col-5">
+              <img class="header-portfolio-picture border-0" src="images/picture.png" />
+            </div>
+
+            <!-- Mission Statement -->
+            <div class="header-description-container col-7">
+              <h1 class="display-4 font-weight-normal header-name">Hi I'm Kiran! <img class="handwave" src="images/handwave.png"></h1>
+              <p class="lead font-weight-normal header-tagline"><span>A Chemical Engineer with a passion for Software Development</span></p>
+              <a href="/about-me"><p class="lead font-weight-normal header-button"><span>Learn About Me!</span></p></a>
+            </div>
+        </div>
+    </div>
+
+  <%- include partials/footer -%>

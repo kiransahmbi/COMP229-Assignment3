@@ -1,0 +1,70 @@
+<!--
+projects.ejs
+Kirandeep Sahmbi
+301232670
+June 4 2022
+ -->
+
+<%- include partials/header -%>
+
+<%- include partials/navbar -%>   
+
+<!-- Projects-->
+
+<div id="projects" class="py-3">
+      <h1 class="font-weight-normal project-heading">Personal Projects</h1>
+      <div class="container">
+        <div class="row">
+          <!-- Typing Exercise Project -->
+          <div class="col-md-6"><a target=”_blank” href="https://kiransahmbi.github.io/typing-exercise/">
+            <div class="card mb-1 shadow-sm">
+              <div class="card-header">Practise Typing App</div>
+              <img class="portfolio-img" src="images/typing practise 1.png" />
+              <div class="card-body">
+                <p class="card-text">A handy tool to improve your typing accuracy and speed!</p>
+                <small class="text-muted project-label">React.js / Fetch API / Bootstrap</small>
+              </div>
+            </div></a>
+          </div>
+
+          <!-- Expense Tracker Project -->
+          <div class="col-md-6" data-toggle="modal" data-target="#modal-expense-tracker"><a>
+            <div class="card mb-1 shadow-sm">
+              <div class="card-header">Expense Tracker App</div>
+              <img class="portfolio-img" src="images/expenser tracker thumbnail.jpg" />
+              <div class="card-body">
+                <p class="card-text">A desktop application to track your expenses!</p>
+                <small class="text-muted project-label">C# / WPF </small>
+              </div>
+            </div></a>
+          </div>
+
+          <!-- Air Quality Dashboard Project -->
+          <div class="col-md-6" data-toggle="modal" data-target="#modal-air-quality"><a>
+            <div class="card mb-1 shadow-sm">
+              <div class="card-header">Dashboard for Monitoring Air Quality</div>
+              <img class="portfolio-img" src="images/dashboard pixelized.png" />
+              <div class="card-body">
+                <p class="card-text">Visualizes data trends from 26 sites across Canada.</p>
+                <small class="text-muted project-label">Python / SQL / Matplotlib</small>
+              </div>
+            </div></a>
+          </div>
+
+          <!-- Real Estate Website Project -->
+          <div class="col-md-6"><a target=”_blank” href="https://kiransahmbi.github.io/real-estate-website/">
+            <div class="card mb-1 shadow-sm">
+              <div class="card-header">Real Estate Website</div>
+              <img class="portfolio-img" src="images/real estate website.png" />
+              <div class="card-body">
+                <p class="card-text">A real estate website that showcases various properties.</p>
+                <small class="text-muted project-label">HTML / CSS / Bootstrap</small>
+              </div>
+            </div></a>
+          </div>
+
+        </div>
+      </div>
+</div>
+
+<%- include partials/footer -%>
